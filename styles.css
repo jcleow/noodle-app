@@ -4,32 +4,28 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.my-row {
-  height: 100px;
-}
 
-.bg {
-  background-color: lightgrey;
-  text-align: center;
+.indexRecipes {
+  background-color: lightblue;
+  text-align: left;
   list-style-type: none;
 }
 
 .categories {
-  background-color: lightgreen;
-  text-align: center;
+  background-color: lightgoldenrodyellow;
+  text-align: left;
   list-style-type: none;
-  height: 150px;
+  padding-top: 24px;
+  padding-bottom: 28px;
 }
 .appHeader {
   z-index: 2;
   width: auto;
-  height: 50px;
-  background-color: aquamarine;
-  transform: translate(0px, 200px);
+  background-color: lightgoldenrodyellow;
+  transform: translate(0px, 300px);
 }
 .recipeHeader {
   text-align: center;
-  background-color: aquamarine;
   margin-top: 60px;
 }
 
@@ -39,7 +35,7 @@
 }
 
 .instructions {
-  background-color: lightcoral;
+  background-color: lightgoldenrodyellow;
 }
 
 .foodImage {
@@ -48,10 +44,31 @@
   height: 50%;
   width: 50%;
 }
+.logoName {
+  font-weight: bold;
+  font-size: 50px;
+}
 
-@media only screen and (max-width: 410px) {
+@media (max-width: 500px) {
+  body {
+    margin-top: 250px;
+  }
+
+  .appImage {
+    height: 60%;
+    width: auto;
+    margin-bottom: -200px;
+  }
+  .appHeader {
+    transform: translate(-90px, 100px);
+  }
+  .logoName {
+    font-size: 30px;
+  }
   .categories {
     margin-top: 15px;
-    padding: 55px;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }

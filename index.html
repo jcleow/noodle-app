@@ -11,7 +11,7 @@
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <nav class="navbar navbar-expand-sm nav-fixed-top bg-light">
+  <nav class="navbar navbar-expand-sm fixed-top bg-light">
     <a class="navbar-brand">Noodles App</a>
     <div>
       <ul class="navbar-nav">
@@ -44,23 +44,24 @@
 
   <body>
     <div class="container container-recipes justify-content-around">
-      <div class="row">
-        <div class="col appHeader">
-          <h1>Noodle App</h1>
+      <div class="row justify-content-center">
+        <div class="col-3 appHeader">
+          <span class="logoName">Noodle App</span>
         </div>
       </div>
       <div class="row">
         <div class="col">
           <img
             src="https://images-na.ssl-images-amazon.com/images/I/71mG-Oxz7BL._SX679_PIbundle-10,TopRight,0,0_SX679SY493SH20_.jpg"
+            class="appImage"
           />
         </div>
       </div>
     </div>
 
     <div class="container">
-      <div class="row justify-content-around d-flex my-row">
-        <div class="col-md-5 bg">
+      <div class="row justify-content-around">
+        <div class="col-md-5 indexRecipes">
           <li>
             <a href="./recipe1.html">Recipe 1 - Normal Chicken Noodle Soup</a>
           </li>
@@ -74,7 +75,7 @@
           </li>
           <li><a href="./recipe4.html">Recipe 4 - Polish Haluski Recipe</a></li>
         </div>
-        <div class="col-md-5 categories align-self-end">
+        <div class="col-md-5 categories align-self-center">
           <li>
             <a href="./ChickenIngredients.html">Chicken Ingredient Recipes</a>
           </li>
