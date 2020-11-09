@@ -1,0 +1,57 @@
+.container-recipes {
+  text-align: center;
+  list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.my-row {
+  height: 100px;
+}
+
+.bg {
+  background-color: lightgrey;
+  text-align: center;
+  list-style-type: none;
+}
+
+.categories {
+  background-color: lightgreen;
+  text-align: center;
+  list-style-type: none;
+  height: 150px;
+}
+.appHeader {
+  z-index: 2;
+  width: auto;
+  height: 50px;
+  background-color: aquamarine;
+  transform: translate(0px, 200px);
+}
+.recipeHeader {
+  text-align: center;
+  background-color: aquamarine;
+  margin-top: 60px;
+}
+
+.ingredients {
+  margin-top: 10px;
+  background-color: lightblue;
+}
+
+.instructions {
+  background-color: lightcoral;
+}
+
+.foodImage {
+  width: 100%;
+  margin: auto;
+  height: 50%;
+  width: 50%;
+}
+
+@media only screen and (max-width: 410px) {
+  .categories {
+    margin-top: 15px;
+    padding: 55px;
+  }
+}
