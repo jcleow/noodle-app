@@ -4,6 +4,14 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.specialCol {
+  text-align: center;
+}
+
+.specialCol ul {
+  background-color: white;
+  margin: 20px;
+}
 
 .indexRecipes {
   background-color: lightblue;
