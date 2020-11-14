@@ -1,3 +1,13 @@
+html {
+  height: 100%;
+  margin: 0;
+}
+body {
+  position: relative;
+  height: 100%;
+  margin: 0;
+}
+
 .container-recipes {
   text-align: center;
   list-style-type: none;
@@ -9,7 +19,6 @@
 }
 
 .specialCol ul {
-  background-color: white;
   margin: 20px;
 }
 
@@ -26,12 +35,7 @@
   padding-top: 24px;
   padding-bottom: 28px;
 }
-.appHeader {
-  z-index: 2;
-  width: auto;
-  background-color: lightgoldenrodyellow;
-  transform: translate(0px, 300px);
-}
+
 .recipeHeader {
   text-align: center;
   margin-top: 60px;
@@ -52,9 +56,27 @@
   height: 50%;
   width: 50%;
 }
-.logoName {
+
+.logoPicture {
   font-weight: bold;
   font-size: 50px;
+  padding-bottom: 372px;
+  color: rgba(255, 255, 255);
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/71mG-Oxz7BL._SX679_PIbundle-10,TopRight,0,0_SX679SY493SH20_.jpg");
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  background-position: center;
+}
+
+.logoName {
+  transform: translate(0, 150px);
+  margin-bottom: -3.5rem;
+}
+
+.spacing {
+  margin-top: 80px;
 }
 
 @media (max-width: 500px) {
