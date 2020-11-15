@@ -26,13 +26,11 @@
         <% }; %>
 
         <li class="nav-item">
-          <a class="nav-link" href="./ChickenIngredients.html"
-            >Chicken Recipes</a
-          >
+          <a class="nav-link" href="/category/chicken">Chicken Recipes</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="./OnionIngredients.html">Onion Recipes</a>
+          <a class="nav-link" href="/category/onion">Onion Recipes</a>
         </li>
       </ul>
     </div>
@@ -58,7 +56,7 @@
           class="col-sm-6 specialCol indexRecipes d-flex align-items-stretch"
         >
           <ul>
-            <% recipes.forEach((recipe,index)=>{ %>
+            Recipes: <% recipes.forEach((recipe,index)=>{ %>
             <li>
               <a href="./recipe/<%=index+1%>"
                 >Recipe <%=index+1%> - <%=recipe%></a
@@ -69,11 +67,12 @@
         </div>
         <div class="col-sm-6 specialCol categories d-flex align-items-stretch">
           <ul>
+            Categories:
             <li>
-              <a href="./ChickenIngredients.html">Chicken Ingredient Recipes</a>
+              <a href="/category/chicken">Chicken Ingredient Recipes</a>
             </li>
             <li>
-              <a href="./OnionIngredients.html">Onion Ingredient Recipes</a>
+              <a href="/category/onion">Onion Ingredient Recipes</a>
             </li>
           </ul>
         </div>

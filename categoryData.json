@@ -1,6 +1,25 @@
 {
   "links": {
-    "chicken": [1, 2],
-    "onion": [3, 4]
+    "type": "",
+    "chicken": [
+      {
+        "number": 1,
+        "name": "Normal Chicken Noodle Soup"
+      },
+      {
+        "number": 2,
+        "name": "Chicken Osso-Buco"
+      }
+    ],
+    "onion": [
+      {
+        "number": 3,
+        "name": "French Onion Beef Noodle Soup"
+      },
+      {
+        "number": 4,
+        "name": "Polish Haluski Recipe"
+      }
+    ]
   }
 }

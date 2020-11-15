@@ -29,9 +29,16 @@ app.get('/', (request, response) => {
 // Route to categories
 app.get('/category/:type', (request, response) => {
   read('categoryData.json', (data) => {
-    const { type } = request.params;
-    const categoryViewObj = data.links[type];
-    response.render('index', categoryViewObj);
+    // Receive input from user on which recipe type
+    const { type: recipeType } = request.params;
+
+    // input data type into categoryData.json
+    data.links.type = recipeType;
+    console.log(data, 'data');
+
+    const categoryViewObj = data.links;
+
+    response.render('category', categoryViewObj);
   });
 });
 
